@@ -307,7 +307,7 @@ const Sidebar = async ({ params }: Props) => {
           <div className="flex items-center gap-4 mb-6">
             <div className="relative h-16 w-16">
               <Image
-                src={seller?.image || "/default-image.jpg"}
+                src={"/default-image.jpg"}
                 alt="Dealer"
                 fill
                 className="rounded-full object-cover"

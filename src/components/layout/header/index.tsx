@@ -18,7 +18,13 @@ export const Header = () => {
   return (
     <header className="h-16 flex items-center">
       <Link href="/" className="ml-4">
-        Logo.
+        <Image
+          src="/car_logo.jpg"
+          alt="Car Logo"
+          className="w-12 h-12"
+          width={256}
+          height={256}
+        />
       </Link>
 
       <AISearch />
